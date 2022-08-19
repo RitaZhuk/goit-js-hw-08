@@ -1,0 +1,2 @@
+var e={save:(e,o)=>{try{const t=JSON.stringify(o);localStorage.setItem(e,t)}catch(e){console.error("Set state error: ",e.message)}},load:e=>{try{const o=localStorage.getItem(e);return null===o?void 0:JSON.parse(o)}catch(e){console.error("Get state error: ",e.message)}}};console.log(e);const o=document.querySelector(".feedback-form");console.log(o),o.addEventListener("input",(function(e){const{name:o,value:r}=e.target;t[o]=r,console.log(t)}));const t={};
+//# sourceMappingURL=03-feedback.44d936e5.js.map
